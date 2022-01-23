@@ -28,9 +28,9 @@ result_exp = item_1 ** item_2
 print('result_exp =', result_exp, type(result_exp))
 
 #11 Создать переменную result_m_exp в которой вы item_1 возводите в степень item_2 используя библиотеку math.
-result_m_exp = math.pow(2, 3)
+result_m_exp = math.pow(item_1, item_2)
 #12 Вывести result_m_exp в консоль
-print('result_exp =', result_exp, type(result_exp))
+print('result_m_exp =', result_m_exp, type(result_m_exp))
 
 #13 Создать переменную result_s_root в которой вы найдёте квадратный корень любой из переменной item
 result_s_root = item_1 ** 0.5
@@ -48,11 +48,11 @@ result_mp_s_root = pow(item_1, 0.5)
 print('result_mp_s_root =', result_mp_s_root, type(result_mp_s_root))
 
 #19 Присвоить переменной item_1 odd значение
-item_1 = 4
+item_1 = 5
 print('item_1 =', item_1, type(item_1))
 
 #20 Присвоить переменной item_2 even значение
-item_2 = 3
+item_2 = 4
 print('item_2 =', item_2, type(item_2))
 
 #21 Создать переменную result_division в которой вы разделите item_1 на item_2
@@ -71,7 +71,7 @@ result_m_ceil = math.ceil(result_division)
 print('result_m_ceil =', result_m_ceil, type(result_m_ceil))
 
 #26 Создать переменную result_int и result_division округлить до ближайшего целого через явное приведение.
-result_int = int(round(result_division))
+result_int = int(result_division)
 #27 Вывести result_int в консоль
 print('result_int =', result_int, type(result_int))
 
