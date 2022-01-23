@@ -118,12 +118,12 @@ currency_convertor = item_2
 
 if currency_convertor:
     currency_usd = usd_item
-    target_currency = chf_item
+    target_currency = eur_item
     target_currency_amount = 50
     currency_result = 0
 
     if target_currency == 'eur':
-        currency_result = target_currency_amount * usd_eur_rate
+        currency_result = target_currency_amount / usd_eur_rate
         print(target_currency_amount, eur_item, '=', currency_result, usd_item)
     elif target_currency == 'uah':
         currency_result = target_currency_amount / usd_uah_rate
